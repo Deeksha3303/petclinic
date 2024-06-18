@@ -6,9 +6,8 @@ import { MessageDisplay, PromotionsContainer } from "../../styles/promotions";
 import { useEffect, useState,useRef } from "react";
 
 const messages=[
-    "20% discount on the first order",
-    "Free delivery for orders above $200",
-    " Gifts to win for the first 10 customers",
+    "Best services at affordable price",
+    "Open 9 am to 9 pm",
 ]
 export default function Promotions(){
     const theme=useTheme()
