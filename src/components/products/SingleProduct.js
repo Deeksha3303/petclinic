@@ -1,4 +1,3 @@
-
 import FavoriteBorderOutlined from "@mui/icons-material/FavoriteBorderOutlined";
 import ShareOutlinedIcon from '@mui/icons-material/ShareOutlined';
 import FitScreenOutlinedIcon from '@mui/icons-material/FitScreenOutlined';
@@ -36,7 +35,7 @@ export default function SingleProduct ({product, matches}){
                 </ProductActionButton>
                 </Stack>
             </ProductActionsWrapper>
-            <ProductAddToCart > Add to cart</ProductAddToCart>
+            <ProductAddToCart > BOOK </ProductAddToCart>
             
         </Product>
         
