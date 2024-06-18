@@ -10,19 +10,7 @@ export default function AppBarDesktop({matches}){
     const {setSearchBox}= ContexUi();
     return(
         <AppbarContainer>
-            <Appheader color={"#d1adcc"}>My Bags</Appheader>
-            <MyList type= "row">
-                <ListItemText primary="Home"></ListItemText>
-                <ListItemText primary="Categories"></ListItemText>
-                <ListItemText primary="Products"></ListItemText>
-                <ListItemText primary="About us"></ListItemText>
-                <ListItemText primary="Contact Us"></ListItemText>
-            <ListItemButton>
-                <ListItemIcon  onClick={()=>setSearchBox(true)}>
-                <SearchIcon></SearchIcon>
-                </ListItemIcon>
-            </ListItemButton>
-            </MyList>
+            <Appheader color={"#d1adcc"}>Pawprints</Appheader>
             <Actions matches={matches}></Actions>
         </AppbarContainer>
     )
