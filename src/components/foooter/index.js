@@ -36,8 +36,8 @@ import SendIcon from '@mui/icons-material/Send';
         <Grid item md={6} lg={2}>
             <FooterTitle variant="body1">information</FooterTitle>
             <List>
-                <ListItemText><Typography lineHeight={2} variant="caption2"> contact us us</Typography></ListItemText>
-                <ListItemText><Typography lineHeight={2} variant="caption2"> Privacy &amp;policy us</Typography></ListItemText>
+                <ListItemText><Typography lineHeight={2} variant="caption2"> contact us </Typography></ListItemText>
+                <ListItemText><Typography lineHeight={2} variant="caption2"> Privacy &amp; policies</Typography></ListItemText>
                 <ListItemText><Typography lineHeight={2} variant="caption2"> Terms &amp; conditions</Typography></ListItemText>
             </List>
             
