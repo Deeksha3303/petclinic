@@ -20,14 +20,14 @@ import SendIcon from '@mui/icons-material/Send';
       <Grid container spacing={2}  justifyContent={"center"}>
         <Grid item md={6} lg={4}>
             <FooterTitle variant="body">
+                about us
             </FooterTitle>
             <br></br>
             <Typography variant="caption2">
-             Pawprints Petclinic 
-             #73, 14th cross, 3rd main
-             Dollars colony
-             Bengaluru - 560094
-             Trust us for comprehensive veterinary services tailored to your pet's unique needs.
+                We are the best in dealing with Bags!. When it comes to bags we assure you that you  are all sorted.
+                We have got all categories of bags ranging from school bags, laptop bags, travel bags, ladies and Gents bags.
+                Try our products and experience the difference.
+            </Typography>
             <Box sx={{mt:4,color:Colors.dove_gray}}>
                 <FacebookOutlinedIcon sx={{mr:1}}></FacebookOutlinedIcon>
                 <TwitterIcon sx={{mr:1}}></TwitterIcon>
@@ -37,9 +37,20 @@ import SendIcon from '@mui/icons-material/Send';
         <Grid item md={6} lg={2}>
             <FooterTitle variant="body1">information</FooterTitle>
             <List>
-                <ListItemText><Typography lineHeight={2} variant="caption2"> Contact us : 9875347609 </Typography></ListItemText>
-                <ListItemText><Typography lineHeight={2} variant="caption2"> Privacy & amp; policies</Typography></ListItemText>
+                <ListItemText><Typography lineHeight={2} variant="caption2"> about us</Typography></ListItemText>
+                <ListItemText><Typography lineHeight={2} variant="caption2"> contact us us</Typography></ListItemText>
+                <ListItemText><Typography lineHeight={2} variant="caption2"> Privacy &amp;policy us</Typography></ListItemText>
                 <ListItemText><Typography lineHeight={2} variant="caption2"> Terms &amp; conditions</Typography></ListItemText>
+            </List>
+            
+        </Grid>
+        <Grid item md={6} lg={2}>
+            <FooterTitle variant="body1">my account</FooterTitle>
+            <List>
+                <ListItemText><Typography lineHeight={2} variant="caption2"> Login</Typography></ListItemText>
+                <ListItemText><Typography lineHeight={2} variant="caption2"> My Cart</Typography></ListItemText>
+                <ListItemText><Typography lineHeight={2} variant="caption2"> My account</Typography></ListItemText>
+                <ListItemText><Typography lineHeight={2} variant="caption2"> Wishlist</Typography></ListItemText>
             </List>
             
         </Grid>
