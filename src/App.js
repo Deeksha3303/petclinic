@@ -29,7 +29,7 @@ function App() {
       <Banner></Banner>
       <Promotions></Promotions>
       <div>
-        <Typography variant="h4" padding={"4px"} display="flex" alignItems="center" justifyContent={"center"}> Our Products</Typography>
+        <Typography variant="h4" padding={"4px"} display="flex" alignItems="center" justifyContent={"center"}> Our Services</Typography>
       </div>
       <Products></Products>
       <Footer></Footer>
