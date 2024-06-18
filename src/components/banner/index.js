@@ -12,18 +12,17 @@ export default function Banner(){
         <BannerContainer>
             <BannerImage src="/images/banner/banner.png"></BannerImage>
             <BannerContent>
-                <Typography variant="h6">Huge collection</Typography>
+                <Typography variant="h6"> </Typography>
                 <BannerTitle variant="h2">
-                    New Bags
+                    
                 </BannerTitle>
                 <BannerDescription variant="subtitle">
                    
-                    A bag is a kind of soft container. It can hold or carry things. It may be made from cloth, leather, plastic, 
-                or paper. Many bags are disposable but some are made to use for a long time
+At our Pawprint Pet Clinic, we treat your pets like family, offering compassionate, comprehensive care with a personal touch. Visit us for top-notch veterinary services that keep your furry friends happy and healthy!
                     
                
                 </BannerDescription>
-                <BannerShopButton background="" color="primary">SHOP NOW</BannerShopButton>
+                <BannerShopButton background="" color="primary">BOOK NOW</BannerShopButton>
             </BannerContent>
             
         </BannerContainer>
