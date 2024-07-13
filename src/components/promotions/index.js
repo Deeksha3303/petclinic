@@ -1,6 +1,5 @@
 
 import { Box, Slide } from "@mui/material";
-import { useTheme } from "@mui/material/styles";
 import { MessageDisplay, PromotionsContainer } from "../../styles/promotions";
 import { useEffect, useState,useRef } from "react";
 
