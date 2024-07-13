@@ -1,8 +1,5 @@
 import { Divider, ListItemButton, ListItemIcon } from "@mui/material";
 import { ActionsAppDesktop, ActionsAppMobile, MyList } from "../../styles/appbar";
-import ShoppingCartOutlinedIcon from '@mui/icons-material/ShoppingCartOutlined';
-import PersonOutlineOutlinedIcon from '@mui/icons-material/PersonOutlineOutlined';
-import FavoriteBorderOutlinedIcon from '@mui/icons-material/FavoriteBorderOutlined';
 import { Colors } from "../../styles/theme";
 
  
