@@ -12,7 +12,6 @@ const messages=[
 export default function Promotions(){
     const theme=useTheme()
 
-    const matches=useMediaQuery(theme.breakpoints.down("md"));
     const containerRef=useRef();
     const [messageIndex,setMessageIndex]= useState(0);
     const [show, setShow]=useState(true);
