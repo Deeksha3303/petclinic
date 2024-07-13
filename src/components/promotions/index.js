@@ -1,7 +1,6 @@
 
 import { Box, Slide } from "@mui/material";
 import { useTheme } from "@mui/material/styles";
-import useMediaQuery from "@mui/material/useMediaQuery";
 import { MessageDisplay, PromotionsContainer } from "../../styles/promotions";
 import { useEffect, useState,useRef } from "react";
 
@@ -10,7 +9,6 @@ const messages=[
     "Open 9 am to 9 pm",
 ]
 export default function Promotions(){
-    const theme=useTheme()
 
     const containerRef=useRef();
     const [messageIndex,setMessageIndex]= useState(0);
