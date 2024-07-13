@@ -7,7 +7,6 @@ import { Colors } from "../../styles/theme";
 export default function Banner(){
     const theme=useTheme()
 
-    const matches=useMediaQuery(theme.breakpoints.down("md"));
     return(
         <BannerContainer>
             <BannerImage src="/images/banner/banner.png"></BannerImage>
