@@ -1,5 +1,5 @@
 
-import {Button,Container, Typography} from '@mui/material';
+import {Container, Typography} from '@mui/material';
 import {useEffect } from "react";
 import { ThemeProvider } from '@mui/material/styles';
 import theme from './styles/theme';
@@ -7,7 +7,6 @@ import AppBar from './components/appbar';
 import Banner from './components/banner';
 import Promotions from './components/promotions';
 import Products from './components/products';
-import { FolderOffSharp } from '@mui/icons-material';
 import Footer from './components/foooter';
 import AppDrawer from './components/AppDrawer';
 import { UIprovider } from './context/contexUI';
