@@ -1,6 +1,5 @@
 import styled from "@emotion/styled";
 import { Box, Button, IconButton } from "@mui/material";
-import { style } from "@mui/system";
 import { slideInBottom, slideInRight } from "../../animations";
 import { Colors } from "../theme";
 
