@@ -1,7 +1,6 @@
 
 import { styled } from "@mui/material/styles";
-import { Box ,Button} from "@mui/material";
-import { Typography } from '@mui/material';
+import { Box ,Button,Typography} from "@mui/material";
 import { Colors } from "../theme";
 export const BannerContainer= styled(Box)(({theme})=>({
     display:"flex",
