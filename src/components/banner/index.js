@@ -2,7 +2,6 @@ import { BannerContainer, BannerContent, BannerDescription, BannerImage, BannerS
 import { useTheme } from "@mui/material/styles";
 import useMediaQuery from "@mui/material/useMediaQuery";
 import { Typography } from "@mui/material";
-import { Colors } from "../../styles/theme";
 
 export default function Banner(){
     const theme=useTheme()
