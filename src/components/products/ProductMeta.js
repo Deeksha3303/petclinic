@@ -13,7 +13,6 @@ export default function ProductMeta({ matches, product }) {
     );
 }
 
-// Define prop types
 ProductMeta.propTypes = {
     matches: PropTypes.bool.isRequired,
     product: PropTypes.shape({
