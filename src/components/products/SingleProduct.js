@@ -8,26 +8,24 @@ import ProductMeta from "./ProductMeta";
 
 export default function SingleProduct({ product, matches }) {
     return (
-        <>
-            <Product>
-                <ProductImage src={product.image}></ProductImage>
-                <ProductMeta product={product} matches={matches}></ProductMeta>
-                <ProductActionsWrapper>
-                    <Stack direction="row">
-                        <ProductFavButton isfav={1}>
-                            <FavoriteBorderOutlined />
-                        </ProductFavButton>
-                        <ProductActionButton>
-                            <ShareOutlinedIcon />
-                        </ProductActionButton>
-                        <ProductActionButton>
-                            <FitScreenOutlinedIcon />
-                        </ProductActionButton>
-                    </Stack>
-                </ProductActionsWrapper>
-                <ProductAddToCart>BOOK</ProductAddToCart>
-            </Product>
-        </>
+        <Product>
+            <ProductImage src={product.image} />
+            <ProductMeta product={product} matches={matches} />
+            <ProductActionsWrapper>
+                <Stack direction="row">
+                    <ProductFavButton isfav={1}>
+                        <FavoriteBorderOutlined />
+                    </ProductFavButton>
+                    <ProductActionButton>
+                        <ShareOutlinedIcon />
+                    </ProductActionButton>
+                    <ProductActionButton>
+                        <FitScreenOutlinedIcon />
+                    </ProductActionButton>
+                </Stack>
+            </ProductActionsWrapper>
+            <ProductAddToCart>BOOK</ProductAddToCart>
+        </Product>
     );
 }
 
