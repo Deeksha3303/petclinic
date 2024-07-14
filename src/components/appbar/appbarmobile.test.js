@@ -2,7 +2,6 @@ import React from 'react';
 import { render, fireEvent } from '@testing-library/react';
 import '@testing-library/jest-dom/extend-expect'; // For additional Jest matchers
 import AppBarMobile from './AppBarMobile';
-import { ContexUi } from "../../context/contexUI";
 
 // Mock the useContext hook for testing purposes
 jest.mock('react', () => ({
@@ -17,7 +16,7 @@ describe('AppBarMobile Component', () => {
     const mockSetSearchBox = jest.fn();
     useContext.mockReturnValue({ setDrawer: mockSetDrawer, setSearchBox: mockSetSearchBox });
 
-    const { getByText, getByTestId } = render(<AppBarMobile matches={true} />);
+    const { getByText } = render(<AppBarMobile matches={true} />);
 
     // Verify that the title "My Bags" is rendered
     expect(getByText('My Bags')).toBeInTheDocument(); // Line 11
