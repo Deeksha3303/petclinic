@@ -1,11 +1,10 @@
-import React from 'react';
+import React,{ useContext } from 'react';
 import PropTypes from 'prop-types';
 import { IconButton } from "@mui/material";
 import { AppbarContainer, Appheader } from "../../styles/appbar";
 import SearchOutlinedIcon from '@mui/icons-material/SearchOutlined';
 import MenuOutlinedIcon from '@mui/icons-material/MenuOutlined';
 import Actions from "./actions";
-import { useContext } from 'react';
 import { ContexUi } from "../../context/contexUI";
 
 export default function AppBarMobile({ matches }) {
