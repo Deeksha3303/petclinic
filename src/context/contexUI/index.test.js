@@ -1,7 +1,7 @@
 import React from 'react';
 import { render, screen } from '@testing-library/react';
 import '@testing-library/jest-dom/extend-expect';
-import { UIprovider, UIcontext, ContexUi } from './UIprovider';
+import { UIprovider, ContexUi } from './UIprovider';
 
 describe('UIprovider', () => {
   it('renders UIprovider component with children', () => {
