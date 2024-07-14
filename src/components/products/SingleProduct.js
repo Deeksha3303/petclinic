@@ -3,7 +3,7 @@ import FavoriteBorderOutlined from "@mui/icons-material/FavoriteBorderOutlined";
 import ShareOutlinedIcon from '@mui/icons-material/ShareOutlined';
 import FitScreenOutlinedIcon from '@mui/icons-material/FitScreenOutlined';
 import { Stack } from "@mui/material";
-import { ProductActionsWrapper, Product, ProductActionButton, ProductAddToCart, ProductFavButton, ProductImage, ProductMetaWrapper } from "../../styles/product";
+import { ProductActionsWrapper, Product, ProductActionButton, ProductAddToCart, ProductFavButton, ProductImage } from "../../styles/product";
 import ProductMeta from "./ProductMeta";
 
 export default function SingleProduct({ product, matches }) {
