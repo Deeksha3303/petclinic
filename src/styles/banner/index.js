@@ -56,7 +56,7 @@ export const BannerContainer= styled(Box)(({theme})=>({
 
   }))
   export const BannerShopButton= styled(Button,
-    {shouldForwardProp:(prop)=>prop!==="color",
+    {shouldForwardProp:(prop)=>prop!=="color",
      name:"myShopButton", slot:"root",
     overridesResolver:(props,styles)=>[
         props.color ==="primary" && styles.primary,
