@@ -1,5 +1,4 @@
 import { BannerContainer, BannerContent, BannerDescription, BannerImage, BannerShopButton, BannerTitle } from "../../styles/banner";
-import { useTheme } from "@mui/material/styles";
 import { Typography } from "@mui/material";
 
 export default function Banner(){
